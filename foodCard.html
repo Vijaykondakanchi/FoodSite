@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .food-card{
+            border: 2px solid gray;
+            border-radius: 10px;
+            width: 280px;
+            display: inline-block;
+            margin: 10px;
+            background-color: white;
+        }
+        .food-card:hover{
+            box-shadow: 0px 0px 15px 0px;
+            width: 320px;
+        }
+        .food-img{
+            border: 1px solid white;
+            border-radius: 20px;
+      
+            margin: 10px;
+        }
+        img{
+            width:100%;
+            border-radius: 10px;
+          
+        
+        }
+        h3{
+            margin-left: 10px;
+        }
+        p{
+            font-size: 20px;
+            margin-left: 10px;
+
+        }
+        .flex-box{
+            
+        
+        }
+    .side-bar{
+        position: fixed;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        background-color: black;
+        color: white;
+        float: left;
+        margin-right: 20px;
+    }
+    .nav{
+        background-color: black;
+        color: white;
+        margin: 20px;
+        border-radius: 10px;
+    
+        
+    
+    
+    }
+    li{
+        display: inline-block;
+        padding: 20px;
+        float: right;
+        font-size: 20px;
+    }
+    h3{
+        display: inline-block;
+        float: left;
+        
+    }
+    a{
+        color: white;
+        font-size: 20px;
+    }
+    a:hover{
+        font-size: 30px;
+        color: yellow;
+    }
+    body{
+        background-repeat: no-repeat;
+       background-size: cover;
+       backface-visibility: var(10px);
+       background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZDbnPwRmPFvdsiXIqVYrdxSvhIQI6li2uKjdM8xV&s');
+    }
+    .order{
+        width: 100%;
+        height: 60px;
+        margin-top: 0;
+        background-color: goldenrod;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+    .order:hover{
+        color: white;
+        font-weight: 100;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h3>Welcome Foodies</h3>
+        <ul>
+            <li><a href="https://unsplash.com/s/photos/food">Home</a></li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="flex-box">
+        
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?burger">
+        </div>
+            <h3>Pizza</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?drinks">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart </h3>
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?juice">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?pizza">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?fruit">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?Biryani">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?burger">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?drinks">
+        </div>
+            <h3>...</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?juice">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?pizza">
+        </div>
+            <h3>..</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?fruit">
+        </div>
+            <h3>/</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?Biryani">
+        </div>
+            <h3>?</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?burger">
+        </div>
+            <h3>?</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?drinks">
+        </div>
+            <h3>??</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?juice">
+        </div>
+            <h3>??</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+            
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?pizza">
+        </div>
+            <h3>??</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?fruit">
+        </div>
+            <h3>??</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+
+    <div class="food-card">
+        <div class="food-img">
+            <img src="https://source.unsplash.com/1600x800/?Biryani">
+        </div>
+            <h3>??</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="order">
+                <h3 style="padding-left:70px;">Add to cart</h3> 
+            </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
